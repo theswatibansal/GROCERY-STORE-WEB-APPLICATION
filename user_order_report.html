@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <b> Hello {{ user }}, your order summary is ready</b>
+
+    <div style="font-family: Arial, sans-serif;">
+        
+        <h3>Order Summary</h3>
+        <table style="width: 100%; border-collapse: collapse;">
+          <tr>
+          <th style="padding: 10px; background-color: violet; color: white;">Order ID:</th>
+          <th style="padding: 10px; background-color: violet; color: white;">Date:</th>
+          <th style="padding: 10px; background-color: violet; color: white;">Total:</th>
+          </tr>
+          <tr v-for="product in Products" :key="product.pid">
+            <td style="padding: 10px; text-align:center;">{{ orderid }}</td>
+            <td style="padding: 10px; text-align:center;">{{ orderdate }}</td>
+            <td style="padding: 10px; text-align:center;">{{ total }}</td>
+          </tr>
+        </table>
+      
+        
+        
+        
+      
+        </div>
+    
+
+</body>
+</html>

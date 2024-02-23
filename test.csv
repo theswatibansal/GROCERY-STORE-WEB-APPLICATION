@@ -1,0 +1,6 @@
+productName,quantity,unit,price,manufacture_date,expiry_date,category_id
+kiwi,10,kg,50,04-11-2023,04-12-2023,1
+Apple,22,kg,70,03-12-2022,04-11-2023,1
+Beans,33,kg,50,03-12-2022,08-11-2023,2
+Carrot,18,kg,30,09-12-2022,08-11-2023,2
+Nachos,20,kg,90,09-9-2022,08-11-2023,3
